@@ -21,3 +21,4 @@
 > Note: community plugins are not officially supported, endorsed, or closely vetted by Architect maintainers. As with any code from vendors unknown to you, reviewing such plugins before adding them to your project is advisable.
 
 - [Lambda X-Ray Tracing](https://github.com/tbeseda/arc-plugin-add-xray) - Enable AWS X-Ray Tracing for all, some, or select Lambdas.
+- [Lambda ENV Variables](https://github.com/stefangomez/arc-plugin-lambda-env) - Adds custom named ENV Variables to your Lambdas from Architect created resources.
