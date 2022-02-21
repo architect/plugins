@@ -7,18 +7,25 @@
 
 ### Plugins maintained by Architect
 
-- [TypeScript](https://github.com/architect/plugin-typescript/) - TypeScript runtime support with realtime Lambda transpiling + sourcemaps
-- [External `@tables`](https://github.com/architect/plugin-external-tables) - Enable access to external DynamoDB tables from other Architect projects, legacy Architect projects, and non-Architect projects
-- [Node.js prune](https://github.com/architect/plugin-node-prune) - Clean excess `node_modules` cruft from your project during deployment
-- [Budget watch](https://github.com/architect/plugin-budget-watch) - Monitor app spend and stop Lambdas when the limit is reached
-- [Storage private](https://github.com/architect/plugin-storage-private) - Define any number of arbitrary private S3 buckets for your application
-- [Storage public](https://github.com/architect/plugin-storage-public) - Define any number of arbitrary public S3 buckets for your application
-- [API Gateway `REST` API](https://github.com/architect/plugin-rest-api) - Support for legacy API Gateway `REST` APIs
+- [TypeScript](https://www.npmjs.com/package/@architect/plugin-typescript) - TypeScript runtime support with realtime Lambda transpiling + sourcemaps
+- [External `@tables`](https://www.npmjs.com/package/@architect/plugin-external-tables) - Enable access to external DynamoDB tables from other Architect projects, legacy Architect projects, and non-Architect projects
+- [Node.js prune](https://www.npmjs.com/package/@architect/plugin-node-prune) - Clean excess `node_modules` cruft from your project during deployment
+- [Budget watch](https://www.npmjs.com/package/@architect/plugin-budget-watch) - Monitor app spend and stop Lambdas when the limit is reached
+- [Storage private](https://www.npmjs.com/package/@architect/plugin-storage-private) - Define any number of arbitrary private S3 buckets for your application
+- [Storage public](https://www.npmjs.com/package/@architect/plugin-storage-public) - Define any number of arbitrary public S3 buckets for your application
+- [API Gateway `REST` API](https://www.npmjs.com/package/@architect/plugin-rest-api) - Support for legacy API Gateway `REST` APIs
 
 
 ### Plugins maintained by the community
 
 > Note: community plugins are not officially supported, endorsed, or closely vetted by Architect maintainers. As with any code from vendors unknown to you, reviewing such plugins before adding them to your project is advisable.
 
-- [Lambda X-Ray Tracing](https://github.com/tbeseda/arc-plugin-add-xray) - Enable AWS X-Ray Tracing for all, some, or select Lambdas.
-- [Lambda ENV Variables](https://github.com/stefangomez/arc-plugin-lambda-env) - Adds custom named ENV Variables to your Lambdas from Architect created resources.
+- [Lambda X-Ray Tracing](https://www.npmjs.com/package/arc-plugin-add-xray) - Enable AWS X-Ray Tracing for all, some, or select Lambdas.
+- [Lambda ENV Variables](https://www.npmjs.com/package/arc-plugin-lambda-env) - Get faster access to the physical names of Architect-created resources via Lambda environment variables
+- [Image transformer](https://www.npmjs.com/package/@ryanbethel/arc-image-plugin) - Drop large images into the static folder of an Architect app and request a transformed version
+- [Remove local routes](https://www.npmjs.com/package/herschel666-arc-macros-remove-local-routes) - Remove select routes prior to deployment; handy when you're leveraging HTTP handlers for local scaffolding tasks
+- [Custom log groups](https://www.npmjs.com/package/herschel666-arc-macros-custom-log-groups) - Create log groups for with a custom log retention interval
+- [API Gateway CORS](https://www.npmjs.com/package/@copper/macro-apig-cors) - Manage CORS headers automatically
+- [JWT auth](https://www.npmjs.com/package/arc-macro-jwt) - Leverage API Gateway built-in HTTP API JWT authorizers
+- [Override CloudFormation values](https://www.npmjs.com/package/@yodata/arc-macro-set-cf-value) - Set and override CloudFormation values upon deployment
+- [Site URL](https://www.npmjs.com/package/arc-macro-site-url) - Allow Lambdas to discover the site's URL via an SSM parameter
