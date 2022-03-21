@@ -9,6 +9,7 @@
 
 - [TypeScript](https://www.npmjs.com/package/@architect/plugin-typescript) - TypeScript runtime support with realtime Lambda transpiling + sourcemaps
 - [External `@tables`](https://www.npmjs.com/package/@architect/plugin-external-tables) - Enable access to external DynamoDB tables from other Architect projects, legacy Architect projects, and non-Architect projects
+- [Sandbox Lambda invoker](https://www.npmjs.com/package/@architect/plugin-lambda-invoker) - Interactively invoke Lambdas in Sandbox with arbitrary events
 - [Node.js prune](https://www.npmjs.com/package/@architect/plugin-node-prune) - Clean excess `node_modules` cruft from your project during deployment
 - [Budget watch](https://www.npmjs.com/package/@architect/plugin-budget-watch) - Monitor app spend and stop Lambdas when the limit is reached
 - [Storage private](https://www.npmjs.com/package/@architect/plugin-storage-private) - Define any number of arbitrary private S3 buckets for your application
