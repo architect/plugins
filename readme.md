@@ -15,6 +15,7 @@
 - [Storage private](https://www.npmjs.com/package/@architect/plugin-storage-private) - Define any number of arbitrary private S3 buckets for your application
 - [Storage public](https://www.npmjs.com/package/@architect/plugin-storage-public) - Define any number of arbitrary public S3 buckets for your application
 - [API Gateway `REST` API](https://www.npmjs.com/package/@architect/plugin-rest-api) - Support for legacy API Gateway `REST` APIs
+- [Remix](https://www.npmjs.com/package/@architect/plugin-remix) - Deploy a Remix app to AWS Lambda and S3 with support for `remix watch` built into Sandbox.
 
 
 ### Plugins maintained by the community
