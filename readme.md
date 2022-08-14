@@ -33,3 +33,4 @@
 - [Site URL](https://www.npmjs.com/package/arc-macro-site-url) - Allow Lambdas to discover the site's URL via an SSM parameter
 - [TailwindCSS](https://www.npmjs.com/package/arc-plugin-tailwindcss) - Enables TailwindCSS workflow - runs JIT CLI watcher with Sandbox, builds minified CSS prior to deployment
 - [Named routes](https://www.npmjs.com/package/arc-plugin-named-routes) - Easier web routing by adding names to HTTP routes in `app.arc`, then use the helper function to refer to them by name
+- [arc-plugin-esbuild](https://www.npmjs.com/package/arc-plugin-esbuild) - Bundle your functions with esbuild
