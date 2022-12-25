@@ -34,3 +34,5 @@
 - [TailwindCSS](https://www.npmjs.com/package/arc-plugin-tailwindcss) - Enables TailwindCSS workflow - runs JIT CLI watcher with Sandbox, builds minified CSS prior to deployment
 - [Named routes](https://www.npmjs.com/package/arc-plugin-named-routes) - Easier web routing by adding names to HTTP routes in `app.arc`, then use the helper function to refer to them by name
 - [arc-plugin-esbuild](https://www.npmjs.com/package/arc-plugin-esbuild) - Bundle your functions with esbuild
+- [arc-plugin-multi-region](https://www.npmjs.com/package/@ticketplushq/arc-plugin-multi-region) - Allows to deploy Architect projects on multi regions using Global Tables
+- [arc-plugin-s3rver](https://www.npmjs.com/package/@ticketplushq/arc-plugin-s3rver) - This plugin runs an s3 server (thanks to s3rver) in the architect sandbox
