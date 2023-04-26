@@ -8,6 +8,8 @@
 ### Plugins maintained by Architect
 
 - [TypeScript](https://www.npmjs.com/package/@architect/plugin-typescript) - TypeScript runtime support with realtime Lambda transpiling + sourcemaps
+- [Rust](https://www.npmjs.com/package/@architect/plugin-rust) - Rust runtime support with automatic compiling
+- [Go](https://www.npmjs.com/package/@architect/plugin-go) - Go runtime support with automatic compiling
 - [External `@tables`](https://www.npmjs.com/package/@architect/plugin-external-tables) - Enable access to external DynamoDB tables from other Architect projects, legacy Architect projects, and non-Architect projects
 - [Sandbox Lambda invoker](https://www.npmjs.com/package/@architect/plugin-lambda-invoker) - Interactively invoke Lambdas in Sandbox with arbitrary events
 - [Node.js prune](https://www.npmjs.com/package/@architect/plugin-node-prune) - Clean excess `node_modules` cruft from your project during deployment
