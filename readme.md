@@ -38,3 +38,4 @@
 - [arc-plugin-esbuild](https://www.npmjs.com/package/arc-plugin-esbuild) - Bundle your functions with esbuild
 - [arc-plugin-multi-region](https://www.npmjs.com/package/@ticketplushq/arc-plugin-multi-region) - Allows to deploy Architect projects on multi regions using Global Tables
 - [arc-plugin-s3rver](https://www.npmjs.com/package/@ticketplushq/arc-plugin-s3rver) - This plugin runs an s3 server (thanks to s3rver) in the architect sandbox
+- [arc-plugin-static-ip](https://www.npmjs.com/package/@ticketplushq/arc-plugin-static-ip) - This plugin allows setting a static outgoing IP in an architect project
